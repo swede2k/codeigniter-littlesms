@@ -19,7 +19,7 @@ $config['sender'] = 'Test';						//Имя отправителя
 ```php
 $this->load->model("smsmodel"); //Загружаем модель
 $this->smsmodel->request('79260000000', 'Текст сообщения');
-`
+```
 ##Changelog
 
 ### Версия 1.0
